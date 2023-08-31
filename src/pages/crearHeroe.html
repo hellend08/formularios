@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Heroe</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="text-desc">
+            <p>20% de descuento en todos los productos!</p>
+        </div>
+        <div class="logo">
+            <img src="../img/logo.png" alt="logo-img">
+            <p>Nombre Tienda</p>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a href="./registro.html">Registrarme</a>
+                </li>
+                <li>
+                    <a href="./login.html">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-form">
+        <div class="container-heroe">
+            <form action="#" method="" autocomplete="off">
+                <legend>Añadí tu super!</legend>
+                <p class="text">Agregá tu personaje favorito completando las opciones.</p>
+                <section class="combo-fieldset">
+                    <fieldset>
+                        <p class="form-heroe">
+                            <label for="name">*Nombre</label>
+                            <input type="text" name="nombre" id="name" placeholder="Ingresa tu nombre">
+                        </p>
+                        <p class="form-heroe">
+                            <label for="fecha">Fecha</label>
+                            <input type="date" name="date" id="fecha">
+                        </p>
+                        <textarea name="descripcion" id="descripcion" cols="30" rows="10"
+                            placeholder="Descripción"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <p class="form-heroe">
+                            <label for="genero">*Especie</label>
+                            <select name="genero" id="genero">
+                                <option value="fem">Femenino</option>
+                                <option value="mas">Masculino</option>
+                                <option value="otro" selected>Otro</option>
+                            </select>
+                        </p>
+                        <p class="form-heroe">
+                            <label for="file">Agregar Foto</label>
+                            <input type="file" name="file" id="file">
+                        </p>
+                        <div class="">
+                            <p>Poderes</p>
+                            <p class="checkbox-contain">
+                                <input class="checkbox-input" type="checkbox" name="" id="">
+                                <label for="">Volar</label>
+                            </p>
+                            <p class="checkbox-contain">
+                                <input class="checkbox-input" type="checkbox" name="" id="">
+                                <label for="">SuperInteligencia</label>
+                            </p>
+                            <p class="checkbox-contain">
+                                <input class="checkbox-input" type="checkbox" name="" id="">
+                                <label for="">Vista de rayo láser</label>
+                            </p>
+
+                            <p class="checkbox-contain">
+                                <input class="checkbox-input" type="checkbox" name="" id="">
+                                <label for="">Billetera gorda</label>
+                            </p>
+                        </div>
+                        <br>
+                        <hr>
+                        <div class="">
+                            <p class="text-age">Tipo de personaje</p>
+                            <p>
+                                <label for="yes">
+                                    <input class="input-radio" type="radio" name="age" id="yes" value="yes" checked>
+                                    Héroe / Heroina
+                                </label>
+                            </p>
+                            <p>
+                                <label for="not">
+                                    <input class="input-radio" type="radio" name="age" id="not" value="not">
+                                    Villano / Villana
+                                </label>
+                            </p>
+                        </div>
+                    </fieldset>
+                </section>
+                <button class="button-heroe">Añadir</button>
+            </form>
+
+        </div>
+
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+
+</html>

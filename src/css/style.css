@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+.text-desc {
+    background-color: #1CD1B0;
+    height: 23px;
+    padding: 2px 10px;
+}
+
+.logo {
+    background-color: #00669F;
+    height: 80px;
+    padding: 2px 10px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 30px;
+    gap: 16px;
+}
+
+nav {
+    background-color: #001D2D;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0 16px;
+}
+
+nav ul {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+nav a, button a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.button-add {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 2rem;
+    border: 0;
+    background-color: #00669F;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 70px 30px;
+}
+
+.heroeCard {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    height: 529px;
+    position: relative;
+    width: 300px;
+}
+
+.firstFrame, .secondFrame, .thirdFrame {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    display: block;
+    height: 194px;
+    width: 300px;
+}
+
+.firstFrame, .thirdFrame {
+    background-image: url('../img/frameBatman.png');
+}
+
+.secondFrame {
+    background-image: url('../img/frameHarley.png');
+}
+
+.heart {
+    margin: 13px 0px 0px 13px;
+}
+
+.heroePicture img {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 130px;
+    left: 90px;
+}
+
+.info {
+    background-color: #F3F3F3;
+    height: 336px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    padding: 75px 18px 20px;
+    width: 300px;
+}
+
+.info h2 {
+    color: #000000;
+    font-family: 'Roboto', 'serif';
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.info p {
+    color: #333333;
+    font-family: 'Roboto', 'serif';
+    font-weight: 400;
+    margin-block: 15px;
+    line-height: 18px;
+}
+
+.info button {
+    background-color: #00669F;
+    border: none;
+    color: #F3F3F3;
+    height: 48px;
+    margin-inline: auto;
+    width: 128px;
+    margin: 13px 68px;
+}
+
+.main-form {
+    display: flex;
+    justify-content: center;
+}
+
+.container-form {
+    background-color: #F3F3F3;
+    height: 500px;
+    width: 45%;
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 2.5rem 2rem; 
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+legend {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #00669F;
+    letter-spacing: 2px;
+    padding: 10px 0px 15px;
+}
+
+input, select {
+    height: 38px;
+    width: 200px;
+    padding: 4px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.input-form {
+    margin: 18px 0px;
+}
+
+.icons-login {
+    margin: 20px 0 0;
+}
+
+.combo-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.text-form {
+    text-align: center;
+    font-size: 13.5px;
+    padding: 10px 0px;
+}
+
+.checkbox-contain {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 7px;
+}
+
+.add-margin {
+    margin: 45px 0px 15px;
+}
+
+.checkbox-input, .input-radio {
+    height: 15px;
+    width: 15px;
+}
+
+.checkbox-contain label {
+    width: 60%;
+    font-size: 13.5px;
+}
+
+.button-in, .button-registry {
+    width: 130px;
+    height: 45px;
+    background-color: #00669F;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+}
+
+.button-in {
+    margin: 5px 32% 0px;
+}
+
+.button-registry {
+    margin: 5px 36.5% 0px;
+}
+
+fieldset {
+    border: none;
+}
+
+.combo-registry {
+    display: flex;
+    gap: 35px;
+    padding: 0 30px;
+    margin-bottom: 1.8rem;
+}
+
+.text-age {
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: #00669F;
+    color: #FFFFFF;
+    height: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-heroe {
+    width: 954px;
+    background-color: #00669F;
+    height: 100%;
+    border-radius: 49px;
+    padding: 1.5rem 3rem;
+    margin: 2rem;
+    color: #FFFFFF;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-heroe legend {
+    color: #FFFFFF;
+}
+
+.combo-fieldset {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1rem 0;
+}
+
+.form-heroe {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.form-heroe input, .form-heroe select {
+    width: 340px;
+}
+
+textarea {
+    width: 340px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.button-heroe {
+    background-color: #1CD1B0;
+    border: none;
+    border-radius: 20px;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+    height: 80px;
+    width: 400px;
+    margin: 1rem 22%;
+}
+
+.text {
+    text-align: center;
+}
+
+.container-contact {
+    height: 400px;
+    width: 50%;
+    background-color: #F3F3F3;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.container-contact h2 {
+    font-size: 25px;
+    color: #00669F;
+    padding: 1rem 2rem 0;
+}
+
+.data-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 3rem;
+}
